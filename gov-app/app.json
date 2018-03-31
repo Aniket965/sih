@@ -1,0 +1,15 @@
+{
+  "expo": {
+   "name": "ipuresult",
+   "icon": "./log.png",
+   "version": "1.0.0",
+   "slug": "your-app-slug",
+   "sdkVersion": "23.0.0",
+   "ios": {
+     "bundleIdentifier": "com.scibots.ipuresult"
+   },
+   "android": {
+     "package": "com.scibots.ipuresult"
+   }
+  }
+}

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ElecTrack SIH</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_device__detail">Device_Detail</string>
+    <string name="title_home">History</string>
+    <string name="title_dashboard">Device Detail</string>
+    <string name="title_notifications">Predictions</string>
+    <string name="title_activity_device__fragment">Device_Fragment</string>
+    <string name="title_activity_humid_temp_card">humid_temp_card</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_gradient"
+    tools:context="com.example.android.electracksih.history_device">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:padding="10dp"
+                android:text="History"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="344dp"
+                android:src="@drawable/hist_graph" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/device_recycler_view_frag"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:padding="2dp"
+                android:layout_weight="3"
+                android:scrollbars="horizontal"
+                />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</FrameLayout>
